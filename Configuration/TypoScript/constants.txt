@@ -1,0 +1,4 @@
+plugin.tx_responsivetypo3 {
+    includeCSS = 1
+    includeJS = 1
+}

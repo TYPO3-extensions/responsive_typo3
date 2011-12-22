@@ -1,0 +1,5 @@
+	# cat=basic/enable/100; type=input; label=LLL:EXT:responsive_typo3/Resources/Private/Language/extmgm.xml:percentage
+resizePercentage = 5
+
+	# cat=basic/enable/101; type=input; label=LLL:EXT:responsive_typo3/Resources/Private/Language/extmgm.xml:maxsize
+maxSize = 2500

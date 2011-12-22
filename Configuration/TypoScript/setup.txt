@@ -1,0 +1,19 @@
+[globalVar = LIT:1 = {$plugin.tx_responsivetypo3.includeCSS}]
+    page.includeCSS.responsive_typo3 = EXT:responsive_typo3/Resources/Public/Css/responsive-images.css
+[end]
+
+[globalVar = LIT:1 = {$plugin.tx_responsivetypo3.includeJS}]
+    page.includeJSFooter.responsive_typo3 = EXT:responsive_typo3/Resources/Public/Javascript/jquery.responsiveimages.js
+[end]
+
+# Clean css_styled_content and remove the style-attributes
+tt_content.image.20 {
+    imageStdWrap.dataWrap = <div class="csc-textpic-imagewrap"> | </div>
+    rendering {
+        dl.imageRowStdWrap.dataWrap = <div class="csc-textpic-imagerow"> | </div>
+        dl.oneImageStdWrap.dataWrap = <dl class="csc-textpic-image###CLASSES###"> | </dl>
+        ul.imageRowStdWrap.dataWrap = <div class="csc-textpic-imagerow"><ul> | </ul></div>
+        ul.oneImageStdWrap.dataWrap = <li class="csc-textpic-image###CLASSES###"> | </li>
+        simple.imageStdWrap.dataWrap = <div class="csc-textpic-imagewrap csc-textpic-single-image"> | </div>
+    }
+}

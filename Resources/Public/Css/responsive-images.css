@@ -1,0 +1,39 @@
+/*------------------------------------------
+ 
+ copyright 2011 by opendo
+ 
+ Author: Georg Paul, opendo GmbH <g.paul@opendo.at>
+ 
+ Author URI: http://www.opendo.at
+ 
+ ------------------------------------------*/
+/* image container */
+.responsive-image-holder {
+  background: #f5f5f5 url(../Images/Background/loading.gif) no-repeat center center;
+  float: inherit; }
+  .responsive-image-holder.image-loaded {
+    background: none; }
+
+/* image sizes */
+.home #main-content .responsive-image-holder,
+.home #main-content .responsive-image-holder img {
+  width: 85px; }
+
+.standard #main-content .responsive-image-holder,
+.standard #main-content .responsive-image-holder img {
+  width: 230px; }
+
+#slideshow .csc-textpic-image .responsive-image-holder,
+#slideshow .csc-textpic-image .responsive-image-holder img {
+  width: 100%; }
+
+.no-js .responsive-image-holder,
+.no-js .responsive-image-holder img {
+  width: 100% !important;
+  height: auto; }
+
+/* example: hide certain images for smartphones */
+@media only screen 
+and (max-width: 480px) {
+  #slideshow {
+    display: none; } }

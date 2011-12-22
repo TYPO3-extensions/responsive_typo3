@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>extmgm</type>
+		<description>Language labels for the labels in the extension manager</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+            <label index="percentage">Steps of scaling in percent</label>
+            <label index="maxsize">Maximum generated imagesize in pixels</label>
+        </languageKey>
+    </data>
+</T3locallang>
